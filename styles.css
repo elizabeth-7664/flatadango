@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #007bff;
+  }
+  
+  #movies, #movie-details {
+    background-color: deeppink;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    cursor: pointer;
+    color: rgba(11, 11, 221, 0.952);
+  }
+  
+  button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: black;
+  }
+  
+  button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  #movie-poster {
+    width: 300px; /* Adjust the width as needed */
+    height: none; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure it looks good */
+  }
+    

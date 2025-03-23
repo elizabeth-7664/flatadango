@@ -1,0 +1,24 @@
+{
+  "films": [
+    {
+      "id": "1",
+      "title": "The Avengers",
+      "poster": "./Avengers.png",
+      "description": "A group of superheroes save the world.",
+      "runtime": 143,
+      "showtime": "7:00 PM",
+      "capacity": 50,
+      "tickets_sold": 50
+    },
+    {
+      "id": "2",
+      "title": "Black Panther",
+      "poster": "./BlackPanther.png",
+      "description": "The king of Wakanda fights for his people.",
+      "runtime": 134,
+      "showtime": "9:00 PM",
+      "capacity": 60,
+      "tickets_sold": 32
+    }
+  ]
+}

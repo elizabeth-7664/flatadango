@@ -1,0 +1,64 @@
+
+
+Flatadango is a simple movie ticket booking app where users can view movie details, check ticket availability, and purchase tickets.
+
+Features
+
+ View a list of movies
+
+ See detailed information about a selected movie
+
+ Check ticket availability
+
+ Purchase tickets
+
+ Automatically updates ticket availability
+
+Setup Instructions
+
+1.Clone the Repository:
+
+$ git clone <repository-url>
+
+2.Navigate to the Project Directory:
+
+$ cd flatadango
+
+3.Open in Browser:
+
+Simply open the index.html file in your browser to access the app.
+
+File Structure
+
+  index.html - The main HTML file for displaying the app.
+
+  style.css - Styles for the application.
+
+  script.js - Contains all the application logic.
+
+  db.json - Contains movie data.
+
+  Avengers.png and BlackPanther.png - Movie poster images.
+
+How to Use
+
+  Open the index.html file in your browser.
+
+  Select a movie from the list to view its details.
+
+  Check the ticket availability.
+
+  Click on the Buy Ticket button to purchase a ticket.
+
+  Ticket availability will be updated immediately.
+
+Notes
+
+  No external server is required.
+
+  Movie data is read directly from db.json.
+
+  All images are stored locally.
+
+Enjoy using Flatadango!
+
